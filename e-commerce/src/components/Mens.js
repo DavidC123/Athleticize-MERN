@@ -226,6 +226,9 @@ class Mens extends React.Component {
                                 <option value="XXL">XXL</option>
                             </select>
                         </Modal.Body>
+                        <Modal.Footer>
+                            <Button onClick={() => this.mensAdd("mensProduct1")} style={{ display: "block", margin: '0 auto' }} size="lg" block >ADD TO CART</Button>
+                        </Modal.Footer>
                     </Modal>
 
                     <Modal
