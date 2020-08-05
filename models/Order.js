@@ -30,9 +30,8 @@ const OrderSchema = new mongoose.Schema({
         required: [true, 'Please add some text']
     },
     createdAt: {
-        type: String,
-        trim: true,
-        default: Date.now().toString()
+        type: Date,
+        default: Date.now()
     }
 });
 
